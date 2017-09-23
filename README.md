@@ -57,5 +57,7 @@ URL: http://domain.com/validation.php?user={{user}}&code={{code}}
 VALUE: NOT SET
 2. USER ATTRIBUTE: {{code}}
 VALUE: NOT SET
-
 => Đặt các giá trị về null (để người dùng không sử dụng lại các nút có sẵn ở trên)
+
+---
+© 2017 Vy Nghia
