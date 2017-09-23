@@ -5,10 +5,10 @@ Gửi mã xác nhận Mail thông qua Chatbot
 Bước 1: import file SQL vào phpmyadmin và vào config.php để cấu hình lại máy chủ mySQL
 
 Bước 2: chỉnh sửa file mail.php dòng 72
-SenderName = "Tên hiển thị khi gửi thư" (VD: Vy Nghia)
-MailServer = "STMP Mail Server của email bạn" (đối với Gmail là smtp.gmail.com)
-usermailer = "tài khoản email STMP server của bạn" (VD: nghiaisgay@gmail.com)
-passmailer = "mật khẩu email STMP serer của bạn" (1)(2)
+- SenderName = "Tên hiển thị khi gửi thư" (VD: Vy Nghia)
+- MailServer = "STMP Mail Server của email bạn" (đối với Gmail là smtp.gmail.com)
+- usermailer = "tài khoản email STMP server của bạn" (VD: nghiaisgay@gmail.com)
+- passmailer = "mật khẩu email STMP serer của bạn" (1)(2)
 
 (1) Đối với STMP của Gmail bạn cần phải đăng nhập bằng Mã (mật khẩu) ứng dụng!
 (2) Tham khảo STMP và mã (mật khẩu) ứng dụng của Gmail tại: https://thachpham.com/wordpress/wordpress-tutorials/smtp-gmail-wordpress.html
