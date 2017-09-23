@@ -10,8 +10,8 @@ Bước 2: chỉnh sửa file mail.php dòng 72
 - usermailer = "tài khoản email STMP server của bạn" (VD: nghiaisgay@gmail.com)
 - passmailer = "mật khẩu email STMP serer của bạn" (1)(2)
 
-(1) Đối với STMP của Gmail bạn cần phải đăng nhập bằng Mã (mật khẩu) ứng dụng!\n
-(2) Tham khảo STMP và mã (mật khẩu) ứng dụng của Gmail tại: https://thachpham.com/wordpress/wordpress-tutorials/smtp-gmail-wordpress.html
+1. Đối với STMP của Gmail bạn cần phải đăng nhập bằng Mã (mật khẩu) ứng dụng!\n
+2. Tham khảo STMP và mã (mật khẩu) ứng dụng của Gmail tại: https://thachpham.com/wordpress/wordpress-tutorials/smtp-gmail-wordpress.html
 
 Bước 3: vào chatfuel.com và tạo 1 Group Blocks (tên gì cũng được miễn bạn nhận ra) và tạo các block sao đây!
 
