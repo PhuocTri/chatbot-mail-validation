@@ -31,7 +31,7 @@ URL: http://domain.com/mail.php?user={{user}}&action=send
 [TrySend]
 
 + JSON API: (kiểm tra giá trị user có tồn tại hay không)
-URL: http://domain.com/check.php?user={{user}}
+++ URL: http://domain.com/check.php?user={{user}}
 
 + Typing 0.4s (chờ 0.4s)
 
