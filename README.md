@@ -20,8 +20,8 @@ SendMailUser - TrySend - Validation - EndChat
 *Cấu hình các Block
 [SendMailUser]
 + User Input: (nhập giá trị user)
-MESSAGE TO USER: Nhập tên tài khoản của bạn:
-SAVE ANSWER TO ATTRIBUTE: {{user}}
+_MESSAGE TO USER: Nhập tên tài khoản của bạn:
+_SAVE ANSWER TO ATTRIBUTE: {{user}}
 
 + Typing 0.4s (chờ 0.4s)
 
