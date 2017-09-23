@@ -20,43 +20,43 @@ SendMailUser - TrySend - Validation - EndChat
 *Cấu hình các Block
 [SendMailUser]
 + User Input: (nhập giá trị user)<br />
-_MESSAGE TO USER: Nhập tên tài khoản của bạn:<br />
-_SAVE ANSWER TO ATTRIBUTE: {{user}}
+MESSAGE TO USER: Nhập tên tài khoản của bạn:<br />
+SAVE ANSWER TO ATTRIBUTE: {{user}}
 
 + Typing 0.4s (chờ 0.4s)
 
-+ JSON API: (gửi giá trị user tới server, kiểm tra và gửi thư)
++ JSON API: (gửi giá trị user tới server, kiểm tra và gửi thư)<br />
 URL: http://domain.com/mail.php?user={{user}}&action=send
 
 [TrySend]
 
-+ JSON API: (kiểm tra giá trị user có tồn tại hay không)
-++ URL: http://domain.com/check.php?user={{user}}
++ JSON API: (kiểm tra giá trị user có tồn tại hay không)<br />
+URL: http://domain.com/check.php?user={{user}}
 
 + Typing 0.4s (chờ 0.4s)
 
-+ JSON API: (gửi lại mã tạo trước đó)
++ JSON API: (gửi lại mã tạo trước đó)<br />
 URL: http://domain.com/mail.php?user={{user}}&action=try
 
 [Validation]
-+ JSON API: (kiểm tra giá trị user có tồn tại hay không)
++ JSON API: (kiểm tra giá trị user có tồn tại hay không)<br />
 URL: http://domain.com/check.php?user={{user}}
 
-+ User Input: (nhập giá trị code)
-MESSAGE TO USER: Nhập mã gửi đến Email của bạn:
++ User Input: (nhập giá trị code)<br />
+MESSAGE TO USER: Nhập mã gửi đến Email của bạn:<br />
 SAVE ANSWER TO ATTRIBUTE: {{code}}
 
 + Typing 0.4s (chờ 0.4s)
 
-+ JSON API: (kiểm tra giá trị user và code có trùng khớp với CSDL không)
++ JSON API: (kiểm tra giá trị user và code có trùng khớp với CSDL không)<br />
 URL: http://domain.com/validation.php?user={{user}}&code={{code}}
 
 [EndChat] 
-+ Set up user attribute:
-1. USER ATTRIBUTE: {{user}}
-VALUE: NOT SET
-2. USER ATTRIBUTE: {{code}}
-VALUE: NOT SET
++ Set up user attribute:<br />
+1. USER ATTRIBUTE: {{user}}<br />
+VALUE: NOT SET<br />
+2. USER ATTRIBUTE: {{code}}<br />
+VALUE: NOT SET<br />
 => Đặt các giá trị về null (để người dùng không sử dụng lại các nút có sẵn ở trên)
 
 ---
