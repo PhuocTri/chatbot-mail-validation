@@ -18,7 +18,7 @@ Bước 3: vào chatfuel.com và tạo 1 Group Blocks (tên gì cũng được m
 SendMailUser - TrySend - Validation - EndChat
 
 *Cấu hình các Block
-- [SendMailUser]
+[SendMailUser]
 + User Input: (nhập giá trị user)
 MESSAGE TO USER: Nhập tên tài khoản của bạn:
 SAVE ANSWER TO ATTRIBUTE: {{user}}
@@ -28,7 +28,7 @@ SAVE ANSWER TO ATTRIBUTE: {{user}}
 + JSON API: (gửi giá trị user tới server, kiểm tra và gửi thư)
 URL: http://domain.com/mail.php?user={{user}}&action=send
 
-- [TrySend]
+[TrySend]
 
 + JSON API: (kiểm tra giá trị user có tồn tại hay không)
 URL: http://domain.com/check.php?user={{user}}
@@ -38,7 +38,7 @@ URL: http://domain.com/check.php?user={{user}}
 + JSON API: (gửi lại mã tạo trước đó)
 URL: http://domain.com/mail.php?user={{user}}&action=try
 
-- [Validation]
+[Validation]
 + JSON API: (kiểm tra giá trị user có tồn tại hay không)
 URL: http://domain.com/check.php?user={{user}}
 
@@ -51,7 +51,7 @@ SAVE ANSWER TO ATTRIBUTE: {{code}}
 + JSON API: (kiểm tra giá trị user và code có trùng khớp với CSDL không)
 URL: http://domain.com/validation.php?user={{user}}&code={{code}}
 
-- [EndChat] 
+[EndChat] 
 + Set up user attribute:
 (1) USER ATTRIBUTE: {{user}}
 VALUE: NOT SET
